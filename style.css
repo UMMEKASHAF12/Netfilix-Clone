@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-main{
+.main{
     background-image: url(Images/background.jpg);
     height: 80vh;
 }
-main .box{
+.main .box{
     height: 80vh;
     width: 100%;
     opacity: 0.44;
