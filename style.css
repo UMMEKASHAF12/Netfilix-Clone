@@ -5,18 +5,21 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 
 .main {
     background-image: url(Images/background.jpg);
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
 .main .box {
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     opacity: 0.60;
     position: absolute;
@@ -74,5 +77,38 @@ nav button{
     text-align: center;
 }
 .sepration{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
     
 }
+.btn{
+   padding: 3px 8px;
+   font-weight: bold;
+   background-color: white;
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+   background-color: rgba(23, 23, 23, 0.2) ;
+
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+   
